@@ -169,19 +169,23 @@ body {
   justify-content: center;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: var(--white);
+.nav-list-item {
   display: block;
   padding: 10px;
-  width: 150px;
+  width: 170px;
   text-align: center;
   border: 2px solid var(--transparent);
 }
 
-.nav-link:hover {
+.nav-list-item:hover {
   border: 2px solid var(--white);
   border-radius: 20px;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .small-screen-navbar {
