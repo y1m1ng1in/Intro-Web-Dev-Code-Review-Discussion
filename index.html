@@ -350,24 +350,36 @@
       <form id="RequestInfo" class="content-container form">
         <h1>Tell us what you want to learn more</h1>
         <div class="space-between-distributed-row-container vertically-stacked-sm-screen-container">
-          <div class="label-input-group form-element-container">
-            <label class="form-label" for="name">Name</label>
-            <input class="form-input-box" type="text" id="name" name="name" />
-          </div>
-          <div class="label-input-group form-element-container">
-            <label class="form-label" for="username">Username</label>
-            <input class="form-input-box" type="text" id="username" name="username" />
-          </div>
+          <p class="label-input-group form-element-container">
+            <span class="form-label">Name</span>
+            <input aria-label="name" class="form-input-box" type="text" id="name" name="name" />
+          </p>
+          <p class="label-input-group form-element-container">
+            <span class="form-label">Username</span>
+            <input
+              aria-label="username"
+              class="form-input-box"
+              type="text"
+              id="username"
+              name="username"
+            />
+          </p>
         </div>
         <div class="space-between-distributed-row-container vertically-stacked-sm-screen-container">
-          <div class="label-input-group form-element-container">
-            <label class="form-label" for="email">Email</label>
-            <input class="form-input-box" type="email" id="email" name="email" />
-          </div>
-          <div class="label-input-group form-element-container">
-            <label class="form-label" for="phone-number">Phone Number</label>
-            <input class="form-input-box" type="tel" id="phone-number" name="phone-number" />
-          </div>
+          <p class="label-input-group form-element-container">
+            <span class="form-label">Email</span>
+            <input aria-label="email" class="form-input-box" type="email" id="email" name="email" />
+          </p>
+          <p class="label-input-group form-element-container">
+            <span class="form-label">Phone Number</span>
+            <input
+              aria-label="phone"
+              class="form-input-box"
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+            />
+          </p>
         </div>
         <div class="form-fieldset form-element-container">
           <p class="form-label">What breeds would you like to learn?</p>
